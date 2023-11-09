@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300;1,400&display=swap");
 * {
   box-sizing: border-box;
@@ -50,6 +51,7 @@ html {
   transition: 0.5s;
   text-decoration: none;
   position: relative;
+  white-space: nowrap;
 }
 
 .contenedor-header header nav ul li a::before {
@@ -155,7 +157,7 @@ html {
   height: 100%;
   width: 50%;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 24px;
 }
 
 .sobremi-info button {
@@ -166,7 +168,7 @@ html {
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 0.9em;
+  font-size: 14px;
 }
 
 .sobremi-info button:hover {
@@ -177,7 +179,7 @@ html {
   width: 100%;
   height: 50%;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 24px;
 }
 
 .icon-contenedor {
@@ -194,7 +196,7 @@ html {
 }
 
 .icon-item i {
-  font-size: 4em;
+  font-size: 64px;
   transition: transform 0.3s;
 }
 
@@ -203,7 +205,7 @@ html {
 }
 
 .icon-item span {
-  font-size: 1em;
+  font-size: 16px;
 }
 
 .portfolio {
@@ -225,7 +227,7 @@ html {
 
 .portfolio-titulo h3 {
   white-space: nowrap;
-  margin-top: 3em;
+  margin-top: 48px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -233,7 +235,7 @@ html {
   height: 100%;
   width: 50%;
   text-align: center;
-  font-size: 2em;
+  font-size: 32px;
 }
 
 .portfolio-proyectos {
@@ -275,7 +277,7 @@ html {
   padding: 10px 20px;
   border-radius: 2px;
   cursor: pointer;
-  font-size: 0.9em;
+  font-size: 15px;
 }
 
 .contacto{
@@ -292,7 +294,7 @@ html {
 }
 
 .contacto-titulo h3 {
-  font-size: 2em;
+  font-size: 32px;
   margin-top: 50px;
 }
 
@@ -312,11 +314,11 @@ html {
 }
 
 .contacto-icon i{
-  font-size: 4em;
+  font-size: 64px;
 }
 
 .contacto-icon span{
-  font-size: 1.5em;
+  font-size: 24px;
 }
 
 .contacto-links a {
@@ -326,4 +328,37 @@ html {
 
 .contacto-icon:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .contenedor-header {
+    background: #3d3d3d;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+
+  .sobremi-info{
+    font-size: 18px;
+  }
+
+  .sobremi-info button {
+    font-size: 8px;
+  }
+
+  .icon-item i {
+    font-size: 40px;
+    transition: transform 0.3s;
+  }
+
+  .contacto-icon i{
+    font-size: 58px;
+  }
+  
+  .contacto-icon span{
+    font-size: 18px;
+  }
+
 }
