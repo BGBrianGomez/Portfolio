@@ -349,7 +349,7 @@ html {
   }
 
   .icon-item i {
-    font-size: 40px;
+    font-size: 30px;
     transition: transform 0.3s;
   }
 
@@ -360,5 +360,6 @@ html {
   .contacto-icon span{
     font-size: 18px;
   }
+
 
 }
