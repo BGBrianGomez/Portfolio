@@ -250,8 +250,7 @@ html {
   align-items: center;
   justify-content: center;
   position: relative;
-  width: 60%;
-  max-width: 100vh;
+  max-width: 30%;
   overflow: hidden;
   border-radius: 2px;
   border: 2px solid black;
@@ -263,6 +262,11 @@ html {
   display: none;
   width: 100%;
   height: auto;
+}
+
+.portfolio-info{
+  margin: 40px;
+  font-size: 20px;
 }
 
 .portfolio-buttons {
@@ -353,6 +357,14 @@ html {
     transition: transform 0.3s;
   }
 
+
+
+  .portfolio-info{
+    max-width: 50%;
+    margin: 20px;
+    font-size: 15px;
+  }
+
   .contacto-icon i{
     font-size: 58px;
   }
@@ -360,6 +372,7 @@ html {
   .contacto-icon span{
     font-size: 18px;
   }
+
 
 
 }
